@@ -93,7 +93,13 @@ nom_utilisateur_docker/worker**
    ```powershell
    kubectl apply -f service.yaml
    ```
+6. **Deploiement du worker**:
 
+aller au dossier /worker
+```sh
+kubectl apply -f deplpoment.yaml
+
+```
 
 ## Lancer les deux conteneurs grace aux images 
 
@@ -154,3 +160,6 @@ http://localhost:5000/v2/_catalog
          0	"planner"
          1	"worker"
 ```
+
+
+
